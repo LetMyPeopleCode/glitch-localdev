@@ -1,0 +1,25 @@
+{
+  "name": "glitch-localdev",
+  "version": "0.1.0",
+  "description": "A package of utilities to make it easier to clone your glitch.com project, develop locally with your favorite editor, and ensure your local copy syncs with your Glitch project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YiddishNinja/glitch-localdev.git"
+  },
+  "keywords": [
+    "glitch",
+    "developer",
+    "editor",
+    "sync"
+  ],
+  "author": "Greg Bulmash (@YiddishNinja)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/YiddishNinja/glitch-localdev/issues"
+  },
+  "homepage": "https://github.com/YiddishNinja/glitch-localdev#readme"
+}
