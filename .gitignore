@@ -70,3 +70,6 @@ typings/
 .glitch-meta
 .gomix-meta
 .grunt
+
+# from vscode workspace settings
+.vscode/

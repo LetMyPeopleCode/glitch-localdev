@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/YiddishNinja/glitch-localdev#readme",
   "dependencies": {
+    "node-cron": "^2.0.3",
     "simple-git": "^1.110.0"
   }
 }

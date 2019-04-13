@@ -7,5 +7,12 @@
  * 
  */
 
-const config = require('lib/config.js')
-const repomgr = require('lib/repomgr.js')
+const config = require('./lib/config.js');
+const repomgr = require('./lib/repomgr.js');
+const daemon = require('./lib/daemon.js');
+
+const myConfig = config.getConfig();
+
+
+//daemon.launch();
+ 
