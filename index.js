@@ -16,7 +16,6 @@ const init = async () => {
   const my_config = await config.getConfig();
   if (my_config.is_new){
     const status = await repomgr.install(my_config);
-    console.log(status);
   }
 
   daemon.launch(my_config);
