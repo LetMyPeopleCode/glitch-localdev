@@ -1,0 +1,9 @@
+#! /opt/nvm/versions/node/v10/bin/node
+
+const process = require('process');
+process.stdout.write('applying changes \n\n');
+   
+var msg = require('child_process').execSync('git merge working');
+process.stdout.write('proc: ' + msg + "\n");
+var msg = require('child_process').execSync('refresh');
+process.stdout.write('proc: ' + msg + "\n");

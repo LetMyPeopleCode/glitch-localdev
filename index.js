@@ -11,9 +11,15 @@ const config = require('./lib/config.js');
 const repomgr = require('./lib/repomgr.js');
 const daemon = require('./lib/daemon.js');
 
-const myConfig = config.getConfig();
-console.log("returned: ", myConfig);
 
+const init = async () => {
+  const my_config = await config.getConfig();
+  if (my_config.is_new){
+    const status = await repomgr.install(my_config);
+    console.log(status);
+  }
 
-//daemon.launch();
- 
+  daemon.launch(my_config);
+}
+
+init();
