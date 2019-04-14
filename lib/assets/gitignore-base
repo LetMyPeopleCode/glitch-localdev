@@ -72,3 +72,6 @@ typings/
 .glitch-meta
 .gomix-meta
 .grunt
+
+# hide the .gitignore (since glitch has its own)
+.gitignore
