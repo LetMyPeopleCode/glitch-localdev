@@ -1,8 +1,0 @@
-{
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 120,
-    "editor.wrappingIndent": "deepIndent",
-    "editor.tabSize": 2,
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 3000
-}
