@@ -1,7 +1,7 @@
 {
   "name": "glitch-localdev",
   "version": "0.1.0",
-  "description": "Makes it easier to clone your glitch.com project to your local machine, develop locally with your favorite editor, and ensure your local copy syncs with your Glitch project.",
+  "description": "Clones your glitch.com project to your local machine and helps ensure your Glitch project and local copy remain in sync while you develop locally.",
   "main": "index.js",
   "scripts": {
   },
