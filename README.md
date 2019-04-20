@@ -7,6 +7,8 @@
 
 * 0.1.0 - FIRST RELEASE - 4/14/2019 - ***Consider this VERY alpha software***
 * 0.1.3 - Added npm -g functionality (so it will run from commandline)
+* 0.1.4 - Fixed daemon timeout issue, added timestamp to commit reporting in console
+  * Resolving Github issues 1 & 2
 
 **Requirements:**
 
