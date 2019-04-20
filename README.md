@@ -1,6 +1,4 @@
 # glitch-localdev
-**Current Version:** 0.1.3
-
 **Author:** Greg Bulmash (@YiddishNinja)
 
 **Release History:**
