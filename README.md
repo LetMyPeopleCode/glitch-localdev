@@ -1,6 +1,8 @@
 # glitch-localdev
 **Author:** Greg Bulmash (@YiddishNinja)
 
+## This repo is deprecated as Glitch released a great VS Code plugin that makes this obsolete. :-)
+
 **Release History:**
 
 * 0.1.0 - FIRST RELEASE - 4/14/2019 - ***Consider this VERY alpha software***
